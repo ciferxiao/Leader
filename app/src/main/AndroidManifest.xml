@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2021. 上海感悟通信科技有限公司
+  ~ All rights reserved
+  ~ Project：Leader
+  ~ Last Modify：2021年11月01日 16:06:19
+  ~ Author：上海感悟通信科技有限公司
+  ~ http://www.sensethink.com
+  -->
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.collect.leader">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
